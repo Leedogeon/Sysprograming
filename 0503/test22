@@ -1,0 +1,10 @@
+#!/bin/bash
+# testing string equality
+testuser=jszs9
+
+if [ $USER != $testuser ]
+then
+echo "This is not $testuser"
+else
+echo "Welcome $testuser"
+fi
